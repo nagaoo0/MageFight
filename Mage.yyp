@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "128960fc-a4c1-4bc8-9b13-38ae091b9975",
+            "Value": {
+                "id": "bc5d93f6-f305-4d08-bb87-9e3c5af1d2ad",
+                "resourcePath": "scripts\\change_volume\\change_volume.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "21a12135-9a42-468a-93cf-61a3ddd51740",
+            "Value": {
+                "id": "c44d5caf-46f7-49c8-a0d0-87dabfff799f",
+                "resourcePath": "views\\21a12135-9a42-468a-93cf-61a3ddd51740.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "376b92d4-217e-4ca9-812e-043b2c8176db",
             "Value": {
                 "id": "a2b63536-d3a9-4760-bbcf-a7b2546f71a8",
@@ -79,11 +95,35 @@
             }
         },
         {
+            "Key": "63d5572d-0eaa-4f43-be34-e5ab9d3467b2",
+            "Value": {
+                "id": "26b50a2d-041b-418e-b2a7-fdf822631573",
+                "resourcePath": "scripts\\change_difficulty\\change_difficulty.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "66917054-885a-4f9c-a084-7f9be929064e",
+            "Value": {
+                "id": "bbde8be1-6520-4346-8dd0-816a636a8292",
+                "resourcePath": "scripts\\create_menu_page\\create_menu_page.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "a511f4b5-c09c-4fea-9fb5-2645e89cd7ce",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "77876600-d5b8-4c43-b434-7de4b5b6e8fe",
+            "Value": {
+                "id": "9ab18d61-2520-4bc0-b31e-ca69bfc041bc",
+                "resourcePath": "scripts\\resume_game\\resume_game.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -95,10 +135,26 @@
             }
         },
         {
+            "Key": "7fefd912-28db-4537-8595-c6a81d2ee1b1",
+            "Value": {
+                "id": "7f6d2c2c-3791-48ec-a637-70f726d33284",
+                "resourcePath": "scripts\\change_window_mode\\change_window_mode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "80071d1a-96ba-4d17-ab5f-6a0d8746f1da",
             "Value": {
                 "id": "6e82e206-38e5-425c-bc17-9266ae31f879",
                 "resourcePath": "views\\80071d1a-96ba-4d17-ab5f-6a0d8746f1da.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82a7dd9e-7873-4fde-936a-11a6f01cee49",
+            "Value": {
+                "id": "36cac9c2-134a-4009-be51-7db976380db4",
+                "resourcePath": "views\\82a7dd9e-7873-4fde-936a-11a6f01cee49.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -143,11 +199,27 @@
             }
         },
         {
+            "Key": "ad435c79-a589-4ad9-8db3-9ba3f3eaf90f",
+            "Value": {
+                "id": "26f78642-6054-40d3-9abe-cd963f213d5d",
+                "resourcePath": "scripts\\change_resolution\\change_resolution.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ae8b33b1-7718-4c9a-8ab4-19f9156e1a69",
             "Value": {
                 "id": "09fce6c0-69a3-47b1-a1f1-a3f660777d26",
                 "resourcePath": "views\\ae8b33b1-7718-4c9a-8ab4-19f9156e1a69.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b725543d-9a4b-44cf-9d4a-1f4e72897e33",
+            "Value": {
+                "id": "00ab9725-4d26-4ae4-b9ce-80563fd968c7",
+                "resourcePath": "objects\\o_pause_menu\\o_pause_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -163,6 +235,14 @@
             "Value": {
                 "id": "19e7877d-8faa-4853-a60a-94a8e08be8df",
                 "resourcePath": "views\\c000a300-299b-4588-a8b8-9998b54fcf74.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c01762fe-0ed7-4421-bd8f-8292c82d8129",
+            "Value": {
+                "id": "40e0cf85-c16e-49c8-a7c8-d8e4f3d8a154",
+                "resourcePath": "views\\c01762fe-0ed7-4421-bd8f-8292c82d8129.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -207,6 +287,14 @@
             }
         },
         {
+            "Key": "dcc1d5fe-099e-4752-9ef3-51d93e5b62a3",
+            "Value": {
+                "id": "0baa1fd6-7f05-4fe1-97c2-3a46b634972e",
+                "resourcePath": "sprites\\s_fighter_icon\\s_fighter_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "082c6a5b-cf2e-46da-835b-ceae0eb0ecb6",
@@ -220,6 +308,14 @@
                 "id": "451444f4-8204-4a3b-981b-9818ab86616b",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7de0c4e-b32f-499b-a069-8501295700cd",
+            "Value": {
+                "id": "ba4ad683-af46-4507-a123-f6e30b3f245c",
+                "resourcePath": "scripts\\exit_game\\exit_game.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -240,7 +336,13 @@
         }
     ],
     "script_order": [
-        
+        "77876600-d5b8-4c43-b434-7de4b5b6e8fe",
+        "f7de0c4e-b32f-499b-a069-8501295700cd",
+        "66917054-885a-4f9c-a084-7f9be929064e",
+        "ad435c79-a589-4ad9-8db3-9ba3f3eaf90f",
+        "128960fc-a4c1-4bc8-9b13-38ae091b9975",
+        "7fefd912-28db-4537-8595-c6a81d2ee1b1",
+        "63d5572d-0eaa-4f43-be34-e5ab9d3467b2"
     ],
     "tutorial": ""
 }
