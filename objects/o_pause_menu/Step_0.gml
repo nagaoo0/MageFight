@@ -10,7 +10,7 @@ var ds_ = menu_pages[page], ds_height = ds_grid_height(ds_);
 if(inputting){
 	
 	switch(ds_[# 1, menu_option[page]]){
-		case menu_element_type.shift:
+		case element_type.shift:
 			var hinput = keyboard_check_pressed(global.key_right) - keyboard_check_pressed(global.key_left);
 			if(hinput != 0){
 				//audio
@@ -19,7 +19,7 @@ if(inputting){
 			}
 		break;
 		
-		case menu_element_type.slider:
+		case element_type.slider:
 			var hinput = keyboard_check(global.key_right) - keyboard_check(global.key_left);
 			if(hinput != 0){
 				ds_[# 3, menu_option[page]] += hinput*0.01;
@@ -28,7 +28,7 @@ if(inputting){
 			
 		break;
 		
-		case menu_element_type.toggle:
+		case element_type.toggle:
 		var hinput = keyboard_check_pressed(global.key_right) - keyboard_check_pressed(global.key_left);
 			if(hinput != 0){
 				//audio
@@ -37,7 +37,7 @@ if(inputting){
 			}
 		break;
 		
-		case menu_element_type.input:
+		case element_type.input:
 		var kk = keyboard_lastkey;
 		if(kk != vk_enter){
 			if(kk != ds_[# 3, menu_option[page]]) //audio
@@ -60,12 +60,12 @@ if(inputting){
 
 if(input_enter_p){
 	switch(ds_[# 1, menu_option[page]]){
-		case menu_element_type.script_runner: script_execute(ds_[# 2, menu_option[page]]); break;
-		case menu_element_type.page_transfer: page = ds_[# 2, menu_option[page]]; break;
-		case menu_element_type.shift:
-		case menu_element_type.slider:
-		case menu_element_type.toggle: if(inputting){ script_execute(ds_[# 2, menu_option[page]], ds_[# 3, menu_option[page]]); }
-		case menu_element_type.input:
+		case element_type.script_runner: script_execute(ds_[# 2, menu_option[page]]); break;
+		case element_type.page_transfer: page = ds_[# 2, menu_option[page]]; break;
+		case element_type.shift:
+		case element_type.slider:
+		case element_type.toggle: if(inputting){ script_execute(ds_[# 2, menu_option[page]], ds_[# 3, menu_option[page]]); }
+		case element_type.input:
 			inputting = !inputting;
 			break;
 	}

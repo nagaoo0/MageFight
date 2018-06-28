@@ -23,7 +23,7 @@ enum menu_page {
 	height
 }
 
-enum menu_element_type {
+enum element_type {
 	script_runner,
 	page_transfer,
 	slider,
@@ -34,46 +34,46 @@ enum menu_element_type {
 
 //CREATE MENU PAGES
 ds_menu_main = create_menu_page(
-	["RESUME",		menu_element_type.script_runner,	resume_game], 
-	["SETTINGS",	menu_element_type.page_transfer,	menu_page.settings],
-	["EXIT",		menu_element_type.script_runner,	exit_game]
+	["RESUME",		element_type.script_runner,	resume_game], 
+	["SETTINGS",	element_type.page_transfer,	menu_page.settings],
+	["EXIT",		element_type.script_runner,	exit_game]
 );
 
 ds_settings = create_menu_page(
-	["AUDIO",		menu_element_type.page_transfer,	menu_page.audio],
-	["DIFFICULTY",	menu_element_type.page_transfer,	menu_page.difficulty], 
-	["GRAPHICS",	menu_element_type.page_transfer,	menu_page.graphics], 
-	["CONTROLS",	menu_element_type.page_transfer,	menu_page.controls], 
-	["BACK",		menu_element_type.page_transfer,	menu_page.main],
+	["AUDIO",		element_type.page_transfer,	menu_page.audio],
+	["DIFFICULTY",	element_type.page_transfer,	menu_page.difficulty], 
+	["GRAPHICS",	element_type.page_transfer,	menu_page.graphics], 
+	["CONTROLS",	element_type.page_transfer,	menu_page.controls], 
+	["BACK",		element_type.page_transfer,	menu_page.main],
 );
 
 ds_menu_audio = create_menu_page(
-	["MASTER",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["SOUNDS",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["MUSIC",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
+	["MASTER",		element_type.slider,			change_volume,			1,		[0,1]],
+	["SOUNDS",		element_type.slider,			change_volume,			1,		[0,1]],
+	["MUSIC",		element_type.slider,			change_volume,			1,		[0,1]],
+	["BACK",		element_type.page_transfer,	menu_page.settings],
 );
 
 ds_menu_difficulty = create_menu_page(
-	["AI",		menu_element_type.shift,			change_difficulty,		0,		["HARMLESS", "NORMIE", "HARDCORE"]],
-	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
+	["AI",		element_type.shift,			change_difficulty,		0,		["HARMLESS", "NORMIE", "HARDCORE"]],
+	["BACK",		element_type.page_transfer,	menu_page.settings],
 );
 
 ds_menu_graphics = create_menu_page(
-	["RESOLUTION",	menu_element_type.shift,			change_resolution,		0,		["384 x 216", "768 x 432", "1152 x 648", "1536 x 874", "1920 x 1080"]],
-	["WINDOW MODE",	menu_element_type.toggle,			change_window_mode,		1,		["FULLSCREEN", "WINDOWED"]], 
-	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
+	["RESOLUTION",	element_type.shift,			change_resolution,		0,		["384 x 216", "768 x 432", "1152 x 648", "1536 x 874", "1920 x 1080"]],
+	["WINDOW MODE",	element_type.toggle,			change_window_mode,		1,		["FULLSCREEN", "WINDOWED"]], 
+	["BACK",		element_type.page_transfer,	menu_page.settings],
 );
 
 ds_menu_controls = create_menu_page(
-	["UP",			menu_element_type.input,			"key_up",				vk_up],
-	["LEFT",		menu_element_type.input,			"key_left",				vk_left],
-	["RIGHT",		menu_element_type.input,			"key_right",			vk_right],
-	["DOWN",		menu_element_type.input,			"key_down",				vk_down],
-	["PUNCH",		menu_element_type.input,			"key_punch",			ord("V")],
-	["KICK",		menu_element_type.input,			"key_kick",				ord("C")],
+	["UP",			element_type.input,			"key_up",				vk_up],
+	["LEFT",		element_type.input,			"key_left",				vk_left],
+	["RIGHT",		element_type.input,			"key_right",			vk_right],
+	["DOWN",		element_type.input,			"key_down",				vk_down],
+	["PUNCH",		element_type.input,			"key_punch",			ord("V")],
+	["KICK",		element_type.input,			"key_kick",				ord("C")],
 	
-	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
+	["BACK",		element_type.page_transfer,	menu_page.settings],
 );
 
 page = 0;

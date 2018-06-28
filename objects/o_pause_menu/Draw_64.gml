@@ -1,6 +1,7 @@
 if(!global.pause) exit;
 
 var gwidth = global.view_width, gheight = global.view_height;
+//var gwidth = 1152, gheight = 648;
 
 //Draw Pause Menu "Back"
 var c = c_black;
@@ -40,7 +41,7 @@ repeat(ds_height){
 	rty = start_y + (yy*y_buffer);
 	
 	switch(ds_[# 1, yy]){
-		case menu_element_type.shift:
+		case element_type.shift:
 			var current_val = ds_[# 3, yy];
 			var current_val_words = ds_[# 4, yy];
 			var left_shift = "<< ";
@@ -55,7 +56,7 @@ repeat(ds_height){
 
 		break;
 		
-		case menu_element_type.slider:
+		case element_type.slider:
 			c = c_white;
 			var len = 64;
 			var current_val = ds_[# 3, yy];
@@ -68,7 +69,7 @@ repeat(ds_height){
 
 		break;
 		
-		case menu_element_type.toggle:
+		case element_type.toggle:
 			c = c_white;
 			var current_val = ds_[# 3, yy];
 			var c1, c2;
@@ -82,7 +83,7 @@ repeat(ds_height){
 
 		break;
 		
-		case menu_element_type.input:
+		case element_type.input:
 			var current_val = ds_[# 3, yy];
 			switch(current_val){
 				case vk_up:		current_val = "UP KEY"; break;

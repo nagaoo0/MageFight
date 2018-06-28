@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "45a7ab9f-ea4d-40f4-ad15-fe22ad1727f0",
+            "Value": {
+                "id": "fd5d1c17-71f5-48f7-a495-66967105e0b0",
+                "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "53fd7489-7700-48d1-9c48-01729ee8c72c",
             "Value": {
                 "id": "d17f8a29-d4e1-4d8b-b1fa-c06ccd520fac",
@@ -108,6 +116,14 @@
                 "id": "bbde8be1-6520-4346-8dd0-816a636a8292",
                 "resourcePath": "scripts\\create_menu_page\\create_menu_page.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6db50819-9156-49aa-9809-fc3246bf9b49",
+            "Value": {
+                "id": "c73de52f-1266-47ea-8545-6ea8f64f9511",
+                "resourcePath": "sprites\\s_fighter_icon_monk\\s_fighter_icon_monk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -290,7 +306,7 @@
             "Key": "dcc1d5fe-099e-4752-9ef3-51d93e5b62a3",
             "Value": {
                 "id": "0baa1fd6-7f05-4fe1-97c2-3a46b634972e",
-                "resourcePath": "sprites\\s_fighter_icon\\s_fighter_icon.yy",
+                "resourcePath": "sprites\\s_fighter_icon_ninja\\s_fighter_icon_ninja.yy",
                 "resourceType": "GMSprite"
             }
         },
