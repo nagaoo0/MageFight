@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "1cf4c2e2-5116-4af6-b3e3-2fe7255a2e0b",
+            "Value": {
+                "id": "4ff9bcb0-ff73-4f1c-8525-01aa91c63717",
+                "resourcePath": "sprites\\s_fighter_idle_ninja\\s_fighter_idle_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1eacf90a-4c72-4840-b2cf-aebaad1ad704",
             "Value": {
                 "id": "76c767d8-62fb-484b-85e6-96bada6a0636",
                 "resourcePath": "views\\1eacf90a-4c72-4840-b2cf-aebaad1ad704.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1fa424d3-f9ab-4a8a-98e5-ff5cb04966b0",
+            "Value": {
+                "id": "4d053023-f5e9-4ac8-8d48-7e76f7537735",
+                "resourcePath": "sprites\\bg_proto\\bg_proto.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,6 +143,14 @@
             }
         },
         {
+            "Key": "38d98976-8db2-426d-8b34-4921ac7df3c1",
+            "Value": {
+                "id": "969f1052-be18-4dfa-ab81-a9c3a2663dab",
+                "resourcePath": "views\\38d98976-8db2-426d-8b34-4921ac7df3c1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "18365fc5-880c-4973-ae40-b90b7a1bdf95",
@@ -143,11 +167,27 @@
             }
         },
         {
+            "Key": "4076bf20-c051-49a4-8386-7ab9e1e6e0d2",
+            "Value": {
+                "id": "cb16c443-f822-4c86-9a09-79826b713752",
+                "resourcePath": "views\\4076bf20-c051-49a4-8386-7ab9e1e6e0d2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "45a7ab9f-ea4d-40f4-ad15-fe22ad1727f0",
             "Value": {
                 "id": "fd5d1c17-71f5-48f7-a495-66967105e0b0",
                 "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "4a0c4f0f-61cf-4c33-8ba8-f498a43027cd",
+            "Value": {
+                "id": "5e0f6e95-dc4a-487c-b75d-0fcb112513bd",
+                "resourcePath": "datafiles_yy\\sprPlayer_Run_Base.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -195,6 +235,14 @@
             "Value": {
                 "id": "1b3aef09-61a3-4b4a-b6bf-20e218835e55",
                 "resourcePath": "views\\717bb8fa-ff81-41b4-8a20-d19ac348e9b6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74ee0dd5-2381-49d7-9fdd-6a81387900ad",
+            "Value": {
+                "id": "d5c784df-751f-434b-b33f-8be948322c37",
+                "resourcePath": "views\\74ee0dd5-2381-49d7-9fdd-6a81387900ad.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -303,6 +351,14 @@
             }
         },
         {
+            "Key": "a722d744-0cd0-4433-b8ed-67f82b8e14f0",
+            "Value": {
+                "id": "cab445c3-3c35-4389-ad29-f85fe3431723",
+                "resourcePath": "sprites\\s_fighter_run_ninja_UNDONE\\s_fighter_run_ninja_UNDONE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "f5108355-97f6-48e9-a470-8729119e0821",
@@ -351,6 +407,14 @@
             }
         },
         {
+            "Key": "b92e7dd2-0bdc-45cf-b3a7-ba1d2f597d4a",
+            "Value": {
+                "id": "c8ad8e26-a2ad-46f8-a4c3-cfdfcfeb6e19",
+                "resourcePath": "sprites\\s_fighter_dash_ninja\\s_fighter_dash_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ba86e6e4-fa34-4a23-b30a-07c90ad59d77",
             "Value": {
                 "id": "55c5b414-32a2-4c99-844d-cdf61ba4a24e",
@@ -372,6 +436,14 @@
                 "id": "40e0cf85-c16e-49c8-a7c8-d8e4f3d8a154",
                 "resourcePath": "views\\c01762fe-0ed7-4421-bd8f-8292c82d8129.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c406e373-4bd7-4f72-95e2-4246447a7fdf",
+            "Value": {
+                "id": "3458fde8-15da-4de5-9d6c-014c11e13f3a",
+                "resourcePath": "sprites\\s_sword_idle_ninja\\s_sword_idle_ninja.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -439,6 +511,14 @@
             }
         },
         {
+            "Key": "d765eb30-44cd-4787-ab3a-b3b26184cf6a",
+            "Value": {
+                "id": "dde62b60-2782-463e-b638-41f738623ee7",
+                "resourcePath": "objects\\o_fighter_mc\\o_fighter_mc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "da4de00b-af1e-47a8-b2d1-a678bfcb46b9",
             "Value": {
                 "id": "30ca5586-c733-4bf4-bd8c-ed727fcb466d",
@@ -460,6 +540,14 @@
                 "id": "082c6a5b-cf2e-46da-835b-ceae0eb0ecb6",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "ea32a518-a2c3-48b8-91c5-4e842ef9085e",
+            "Value": {
+                "id": "13c115ae-e8c3-486e-b1eb-6e6c63be2ddd",
+                "resourcePath": "views\\ea32a518-a2c3-48b8-91c5-4e842ef9085e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -500,6 +588,14 @@
                 "id": "6404bcfa-8962-4033-b25d-e9fa3f55e6ab",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "ff7d9307-199f-4de4-a4fe-50631fe7e4d0",
+            "Value": {
+                "id": "4524e818-7b14-4234-b4e7-ba9aa579edc6",
+                "resourcePath": "views\\ff7d9307-199f-4de4-a4fe-50631fe7e4d0.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],
