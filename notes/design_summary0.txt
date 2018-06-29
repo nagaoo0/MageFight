@@ -1,0 +1,28 @@
+Rough Design for fighting game design - rogue
+- Characters have hp, stamina/magic, and ult meter
+- (if side-scroller) Ult and spells can be changed/equipped by taking from enemies/bosses 
+- kicks, punches, power punches, air kicks, ducking, jumping, aiming up
+- combos are 3-move to 7-move inputs chains
+- combos have types/effects (if multiplayer, then types don't matter; if sidescroller,
+	then types have weaknesses/resistances):
+	- stagger/trip, bleed, burn, dowsed, electric (more?)
+	- dowsed-electric relationship: dowsing moves are weak water attacks, but electric
+		combos can only hit players that are dowsed; electric attacks are powerful and/or
+		charges ult faster (maybe even crit?); once an elec combo happens, target needs to
+		be dowsed again
+- fighter types:
+	- brutes: "slow and tanky", not much stamina/mag, long combos (just because long it 
+		doesn't mean powerful, strong normal attacks
+	- ninjas: "agile and fragile", lot of stam/mag, short and med combos, either extra jump 
+		or can air-dash (cost stamina), suseptable to stagger and/or low hp, weak (but quick)
+		normal attacks
+	- mages: "normie class", vanilla balance
+	- monks "combo masters", have combos of all lengths, can block by casting a barrier 
+		costs mag\stam, the powerful combos can only be close quarters
+
+Questions:
+Q: Should stam/mag replenish over time or through fighting? or both? - rogue
+
+Q: Get rid of ult idea? I say at least hold off until we know what kind of fighting game - rogue
+
+Q: Need more or less combo and fighter types? - rogue
