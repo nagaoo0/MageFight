@@ -43,7 +43,7 @@ if (state == "normal") {
 				double_jump();
 				break;
 			case 2 : // air dash
-				if (horiz ==0) air_dash(); //Only dash if not moving
+				if (horiz ==0) air_dash(); //Only dash if not moving; maybe it should be double tap the direction (left or right) 
 				break;
 			default : break;
 		}
