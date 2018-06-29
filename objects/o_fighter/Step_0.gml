@@ -4,6 +4,7 @@
 if keyboard_check_pressed(vk_escape)
 	instance_create_layer(0, 0, "GUI", o_pause_menu)
 
+
 // read player inputs
 fighter_input();
 
@@ -42,7 +43,7 @@ if (state == "normal") {
 				double_jump();
 				break;
 			case 2 : // air dash
-				air_dash();
+				if (horiz ==0) air_dash(); //Only dash if not moving
 				break;
 			default : break;
 		}
