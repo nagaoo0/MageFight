@@ -8,6 +8,8 @@ if ( (object_get_name(self) != "o_fighter") && ( (parent >= 0) && (object_get_na
 	return -1;
 }
 
+// NOTE: Once a startup menu/object is made,these inputs will be saved globally, not to object
+
 // reset inputs
 self.fitr_punch = false;
 self.fitr_kick = false;

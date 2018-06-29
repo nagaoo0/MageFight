@@ -43,19 +43,24 @@ if (state == "normal") {
 				double_jump();
 				break;
 			case 2 : // air dash
-				if (horiz ==0) air_dash(); //Only dash if not moving
+				air_dash();
+				//if (horiz ==0) air_dash(); //Only dash if not moving
 				break;
 			default : break;
 		}
 	}
 	
+	// check if up pressed to start jump; to stop continous jumping if up held
+	if (!jumping && !falling && fitr_up)
+		jumping = true;
+		
 	// if up held and not falling
 	if (vert < 0 && !falling) {
 		// if jump not started start
-		if (!jumping)
-			jumping = true;
+		/*if (!jumping)		moved up
+			jumping = true;*/
 		// increase velocity upwards
-		vel[1] = clamp(vel[1] + (fitr_jmp_accl * vert), -y_max_vel, y_max_vel);	
+		vel[1] = clamp(vel[1] + (fitr_jmp_accl * vert), -y_max_vel, y_max_vel);
 	}
 
 	// check if falling
@@ -80,12 +85,12 @@ if (state == "normal") {
 	// apply velocities in regards to collisions
 	apply_movement(vel[0], vel[1]);
 	
-	// since apply_movement can reset y_o, check if it was reset
-	// NOTE: even though y_o can equal y in mid air (because of air abilities), you cannot use abilities again because of the falling boolean
-	if (y_o == y) {
+	// once we know we are on floor, remove any possible verticle momentum and reset jump FSM
+	if (place_meeting(x, y + 1, o_collision)) {
 		falling = false;
 		jumping = false;
 		ability_used = false;
+		vel[1] = 0;
 	}
 	// jumping miniFSM end
 	

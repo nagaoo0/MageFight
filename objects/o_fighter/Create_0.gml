@@ -28,6 +28,7 @@ air_ability = 2;
 ability_used = false;
 
 // input booleans
+// NOTE: Once a startup menu/object is made,these inputs will be saved globally, not to object
 // single-pressed inputs (for  attacks & combos)
 fitr_punch = false;
 fitr_kick = false;
