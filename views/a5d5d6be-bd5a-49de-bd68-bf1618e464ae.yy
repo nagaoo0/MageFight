@@ -7,8 +7,7 @@
         "1fcdee35-06b4-416d-b40b-480fb97bee00",
         "21eedeb8-1999-4109-a2b2-79c4ece37cd7",
         "c9bc2b86-2af6-41c3-84b6-b691ed6e8845",
-        "6a8b66c4-a9cc-4698-9914-c1e3cc6316a9",
-        "ee058536-c18c-486d-bb61-a1ada1cb68b7"
+        "6a8b66c4-a9cc-4698-9914-c1e3cc6316a9"
     ],
     "filterType": "GMScript",
     "folderName": "Fighter",

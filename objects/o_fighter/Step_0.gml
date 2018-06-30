@@ -42,7 +42,28 @@ if (state == fighter_state.normal) {
 }
 
 if (state == fighter_state.jumping) {
-	if (fitr_up_held
+	// calculate change from floor level of jump
+	var y_delta = y_o - y;
+	// while up held and height below limit, accel upwards
+	if ( fitr_up_held && (y_delta <= fitr_jmp ) ) {
+		vel[1] = clamp(vel[1] + (fitr_jmp_accl * vert), -y_max_vel, y_max_vel);
+		// if kick inputted, do air kick
+		if (fitr_kick) 
+			state = fighter_state.air_kicking;
+	}
+	// if up let go or height limit reach, fall
+	else
+		state = fighter_state.falling;
+	// if state changed then exit step event
+	if state != fighter_state.jumping
+		exit;
+}
+
+if (state == fighter_state.falling) {
+	if (place_meeting(x, y + 1, o_collision))
+		state = fighter_state.normal;
+	if (fitr_kick) 
+		state = fighter_state.air_kicking;
 }
 
 
