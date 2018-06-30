@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "55521ae6-3831-4985-8279-63d35b92a0a8",
+            "Value": {
+                "id": "b3da2d1c-a71a-4ab1-a106-8e2973832e95",
+                "resourcePath": "views\\55521ae6-3831-4985-8279-63d35b92a0a8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "63d5572d-0eaa-4f43-be34-e5ab9d3467b2",
             "Value": {
                 "id": "26b50a2d-041b-418e-b2a7-fdf822631573",
@@ -236,6 +244,14 @@
                 "id": "1b3aef09-61a3-4b4a-b6bf-20e218835e55",
                 "resourcePath": "views\\717bb8fa-ff81-41b4-8a20-d19ac348e9b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "739e2052-d896-46d8-b394-05a4d5fbe38c",
+            "Value": {
+                "id": "6f803f86-683d-450c-b432-265c79ee84c7",
+                "resourcePath": "sprites\\s_fighter_jump_ninja\\s_fighter_jump_ninja.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
