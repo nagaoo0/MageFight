@@ -46,6 +46,7 @@ if (state == "normal") {
 				if (horiz ==0) air_dash(); //Only dash if not moving; maybe it should be double tap the direction (left or right) 
 				break;
 			default : break;
+			
 		}
 	}
 	

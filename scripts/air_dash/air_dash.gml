@@ -9,6 +9,7 @@ if ( (object_get_name(self) != "o_fighter") && ( (parent >= 0) && (object_get_na
 	return -1;
 }
 
-var _vel = [self.fitr_dash * image_xscale, 0];
+var _vel = [self.fitr_dash * facing, 0];
 apply_movement(_vel[0], _vel[1]);
 self.ability_used = true;
+

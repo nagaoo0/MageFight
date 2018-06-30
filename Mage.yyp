@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "13b1e32a-b05e-4c2f-b0f6-522c30a71045",
+            "Value": {
+                "id": "daa944db-6941-45b0-9a86-5ee8c6c5c072",
+                "resourcePath": "sprites\\s_fighter_idle_crouch_ninja\\s_fighter_idle_crouch_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "160aa855-550b-4fc9-aa15-a620e633a224",
             "Value": {
                 "id": "1c0f6435-808b-4c33-b142-981e77c64cb6",
@@ -131,6 +139,22 @@
             "Value": {
                 "id": "29e07c1e-bbdd-4dff-b38e-137f327d15a3",
                 "resourcePath": "scripts\\macros\\macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2d8032b4-a134-4949-bc69-ded6b3683833",
+            "Value": {
+                "id": "395ed7b2-95e0-4e2e-9f3e-a2b98283bf54",
+                "resourcePath": "sprites\\s_sword_idle_crouch_ninja\\s_sword_idle_crouch_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e979fb3-e606-4aa0-810e-1c8ff7830027",
+            "Value": {
+                "id": "ce44c331-8320-45ff-a3db-6e47bbb6d714",
+                "resourcePath": "scripts\\print\\print.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "7968bfa5-2997-44c1-abb8-d00fe8b192ca",
+            "Value": {
+                "id": "1165dd5f-39d1-4fb5-8d4e-73c3a7e09a10",
+                "resourcePath": "sprites\\s_sword_jump_ninja\\s_sword_jump_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
                 "id": "9e707270-bb45-44ac-80d3-c5b6f2c2c83c",
@@ -367,10 +399,18 @@
             }
         },
         {
+            "Key": "a676668d-6d2a-4e4e-8a73-d42dd7d2ae69",
+            "Value": {
+                "id": "42d494d6-9153-4d80-87d0-53ca8cb796d8",
+                "resourcePath": "sprites\\s_sword_run_ninja\\s_sword_run_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a722d744-0cd0-4433-b8ed-67f82b8e14f0",
             "Value": {
                 "id": "cab445c3-3c35-4389-ad29-f85fe3431723",
-                "resourcePath": "sprites\\s_fighter_run_ninja_UNDONE\\s_fighter_run_ninja_UNDONE.yy",
+                "resourcePath": "sprites\\s_fighter_run_ninja\\s_fighter_run_ninja.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -628,7 +668,8 @@
         "c9bc2b86-2af6-41c3-84b6-b691ed6e8845",
         "6a8b66c4-a9cc-4698-9914-c1e3cc6316a9",
         "2531de42-70a8-44b9-ad0a-f1c7abae7dca",
-        "a2ba2cb1-eac0-4715-8188-0fc17470508c"
+        "a2ba2cb1-eac0-4715-8188-0fc17470508c",
+        "2e979fb3-e606-4aa0-810e-1c8ff7830027"
     ],
     "tutorial": ""
 }

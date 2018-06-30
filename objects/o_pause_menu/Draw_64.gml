@@ -12,7 +12,7 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_left);
 
 var ds_ = menu_pages[page], ds_height = ds_grid_height(ds_);
-var y_buffer = 28, x_buffer = 16; 
+var y_buffer = 8, x_buffer = 8; 
 var start_y = (gheight/2) - ((((ds_height-1)/2)*y_buffer)), start_x = gwidth/2;
 var ltx = x_buffer, lty, c, xo;
 var yy = 0; repeat(ds_height){
@@ -58,14 +58,14 @@ repeat(ds_height){
 		
 		case element_type.slider:
 			c = c_white;
-			var len = 64;
+			var len = 32;
 			var current_val = ds_[# 3, yy];
 			draw_line_width(rtx-len*2, rty, rtx-len, rty, 2);
 			
 			if(inputting and yy == menu_option[page]){ c = c_red; }
-			draw_circle_color(rtx -len*2 + (current_val * len), rty, 4, c,c_white, false)
-			draw_circle_color(rtx -len*2 + (current_val * len), rty, 4, c,c_white, true);
-			draw_text_color(rtx -len + (len*1.2), rty, string( floor(current_val*100) )+"%", c,c,c,c, 1);
+			draw_circle_color(rtx -len*2 + (current_val * len), rty, 2, c,c, false)
+			draw_circle_color(rtx -len*2 + (current_val * len), rty, 2, c,c, true);
+			draw_text_color(rtx -len + (len*1.2)-8, rty, string( floor(current_val*100) )+"%", c,c,c,c, 1);
 
 		break;
 		

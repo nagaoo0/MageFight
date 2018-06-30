@@ -1,8 +1,8 @@
 {
-    "id": "6a8b66c4-a9cc-4698-9914-c1e3cc6316a9",
+    "id": "2e979fb3-e606-4aa0-810e-1c8ff7830027",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "air_dash",
+    "name": "print",
     "IsCompatibility": false,
     "IsDnD": false
 }
