@@ -1,12 +1,17 @@
 /// @description Constructor & Initial Stats
 
+// global variable for player 1 (or only player)
+// NOTE: player1_id and player2_id globals will be initialized at -1 when we have start menu; I made a 
+	// script create_player() for when its made, then this code wouldn't be needed
+global.player1_id = self;
+
 // stats (so far)
 fitr_hp = 100;
 fitr_stammag = 50;
 fitr_jmp = 40;
 fitr_wght = 50;
 fitr_accl = 2;
-fitr_jmp_accl = 8;
+fitr_jmp_accl = 16;
 fitr_dccl = 2;
 fitr_dash = 50;
 
@@ -15,8 +20,20 @@ vel = [0, 0];
 x_max_vel = 6;
 y_max_vel = 6;
 
-// state for finite state machine (FSM)
-state = "normal";
+// states for finite state machine (FSM)
+enum fighter_state {
+	normal,
+	jumping,
+	falling,
+	punching,
+	kicking,
+	air_kicking,
+	double_jumping,
+	air_dashing,
+};
+
+// set state to normal
+state = fighter_state.normal;
 
 // mini FSM for jumping
 jumping = false;
