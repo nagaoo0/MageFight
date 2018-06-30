@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "11c2ad24-0af2-4354-96f3-8830776d42ec",
+            "Value": {
+                "id": "5b8d52ac-d646-4be5-8e94-bc1723428f96",
+                "resourcePath": "views\\11c2ad24-0af2-4354-96f3-8830776d42ec.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "128960fc-a4c1-4bc8-9b13-38ae091b9975",
             "Value": {
                 "id": "bc5d93f6-f305-4d08-bb87-9e3c5af1d2ad",
@@ -124,6 +132,14 @@
                 "id": "c44d5caf-46f7-49c8-a0d0-87dabfff799f",
                 "resourcePath": "views\\21a12135-9a42-468a-93cf-61a3ddd51740.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21d136cf-6408-43a4-b6c2-d3b72d9cb8ca",
+            "Value": {
+                "id": "fab79f2b-02d7-494a-aa98-1c9f4960a3c4",
+                "resourcePath": "sprites\\s_fighter_idle_monk\\s_fighter_idle_monk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -583,6 +599,14 @@
             }
         },
         {
+            "Key": "dc7a42c3-f199-453c-ac93-e838667607f9",
+            "Value": {
+                "id": "48fb863c-1940-445a-9240-98c84659e999",
+                "resourcePath": "views\\dc7a42c3-f199-453c-ac93-e838667607f9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dcc1d5fe-099e-4752-9ef3-51d93e5b62a3",
             "Value": {
                 "id": "0baa1fd6-7f05-4fe1-97c2-3a46b634972e",
@@ -644,6 +668,14 @@
                 "id": "6404bcfa-8962-4033-b25d-e9fa3f55e6ab",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "fef52bf5-b53b-425f-80ce-41d7e3173f06",
+            "Value": {
+                "id": "833e9992-8211-462a-89e1-cc86f4edd1bb",
+                "resourcePath": "views\\fef52bf5-b53b-425f-80ce-41d7e3173f06.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
