@@ -41,6 +41,7 @@ fitr_up_held = false;
 fitr_right_held = false;
 fitr_left_held = false;
 
+
 // Drawing
 image=0;
 facing=image_xscale

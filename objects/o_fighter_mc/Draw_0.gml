@@ -13,6 +13,12 @@ if horiz!=0 facing=horiz
 var sprite_arm = s_sword_idle_ninja
 
 	if state == "normal"{
+		
+			if (vert > 0)
+				sprite_index = s_fighter_idle_crouch_ninja; // crouch
+			else
+				sprite_index = s_fighter_idle_ninja; // stand
+		
 		if !falling && !jumping {
 			if vert>0 && horiz!=0 {
 				sprite_index = s_fighter_idle_ninja
@@ -42,6 +48,3 @@ var sprite_arm = s_sword_idle_ninja
 
 draw_sprite_ext(sprite_index, image, x, y, image_xscale * facing, image_yscale, 0, c_white,1)
 draw_sprite_ext(sprite_arm,image,x,y,image_xscale * facing,image_yscale,0,c_white,1)
-
-print("HOR: ",horiz)
-print("VERT: ",vert)

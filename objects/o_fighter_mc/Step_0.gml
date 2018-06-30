@@ -14,20 +14,16 @@ if (state == "normal") {
 	// getting directional inputs
 	var horiz = fitr_right_held - fitr_left_held;
 	var vert  = fitr_down_held - fitr_up_held;
-	
+
 	// acceleration
-	if (horiz != 0) 
+	if (horiz != 0){
 		vel[0] = clamp(vel[0] + (fitr_accl * horiz), -x_max_vel, x_max_vel);
+	}
 	// decceleration
 	else if (horiz == 0)
 		//vel[0] += vel[0] + (-sign(vel[0]) * fitr_dccl);
 		vel[0] = clamp(vel[0] + (-sign(vel[0]) * fitr_dccl), -x_max_vel, x_max_vel);
 	
-	// crouching
-	if (vert > 0)
-		sprite_index = s_fighter_idle_ninja; // crouch
-	else
-		sprite_index = s_fighter_idle_ninja; // stand
 	
 	// jumping miniFSM begin
 	// NOTE: not very optimised I know, will change if needed after prototype
@@ -43,10 +39,9 @@ if (state == "normal") {
 				double_jump();
 				break;
 			case 2 : // air dash
-				if (horiz ==0) air_dash(); //Only dash if not moving; maybe it should be double tap the direction (left or right) 
+				air_dash(); //Only dash if not moving; maybe it should be double tap the direction (left or right) 
 				break;
 			default : break;
-			
 		}
 	}
 	
