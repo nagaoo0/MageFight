@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "28802534-99ec-4eb6-9220-23a50f600a15",
+            "Value": {
+                "id": "80ba6ef5-8d20-4bb1-96b3-2ca2cbe1186b",
+                "resourcePath": "sprites\\s_fighter_punch_hitbox\\s_fighter_punch_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d8032b4-a134-4949-bc69-ded6b3683833",
             "Value": {
                 "id": "395ed7b2-95e0-4e2e-9f3e-a2b98283bf54",
