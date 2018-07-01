@@ -162,7 +162,7 @@
             "Key": "21d136cf-6408-43a4-b6c2-d3b72d9cb8ca",
             "Value": {
                 "id": "fab79f2b-02d7-494a-aa98-1c9f4960a3c4",
-                "resourcePath": "sprites\\s_fighter_idle_monk\\s_fighter_idle_monk.yy",
+                "resourcePath": "sprites\\s_fighter_idle_monk_OLD\\s_fighter_idle_monk_OLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -442,7 +442,7 @@
             "Key": "84ee6d69-4c89-4459-b569-fee658247731",
             "Value": {
                 "id": "03ea58bc-40e7-48b3-903e-67c5a6e12d31",
-                "resourcePath": "sprites\\s_fighter_idle_monk_staff\\s_fighter_idle_monk_staff.yy",
+                "resourcePath": "sprites\\s_fighter_idle_monk\\s_fighter_idle_monk.yy",
                 "resourceType": "GMSprite"
             }
         },
