@@ -11,7 +11,7 @@ fitr_stammag = 50;
 fitr_jmp = 30;
 fitr_wght = 50;
 fitr_accl = 2;
-fitr_jmp_accl = 26;
+fitr_jmp_accl = 60;
 fitr_dccl = 2;
 fitr_dash = 50;
 
@@ -28,8 +28,8 @@ enum fighter_state {
 	punching,
 	kicking,
 	air_kicking,
-	double_jumping,
-	air_dashing,
+	air_ability,
+	blocking,
 };
 
 // set state to normal
@@ -42,7 +42,7 @@ falling = true;
 y_o = y;
 // for double-jump or air-dash; 0: none, 1: double-jump, 2: air-dash
 air_ability = 2;
-ability_used = false;
+air_ability_used = false;
 
 // input booleans
 // NOTE: Once a startup menu/object is made,these inputs will be saved globally, not to object

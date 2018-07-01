@@ -1,0 +1,7 @@
+Main tasks at the moment, but can do others
+
+1. Finish basic fighter finite state machine
+2. impliment combos
+3. make crouches make horizontal momentum reach zero
+4. design combos for seperate characters
+5. tweak values for a smoother feel

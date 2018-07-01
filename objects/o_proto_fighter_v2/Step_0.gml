@@ -36,6 +36,8 @@ if (state == fighter_state.jumping) {
 		// if kick inputted, do air kick
 		if (fitr_kick) 
 			state = fighter_state.air_kicking;
+		if (fitr_up && !air_ability_used && (air_ability > 0))
+			state = fighter_state.air_ability;	
 	}
 	// if up let go or height limit reached, fall
 	else
@@ -45,10 +47,32 @@ if (state == fighter_state.jumping) {
 }
 
 if (state == fighter_state.falling) {
-	if (place_meeting(x, y + 1, o_collision))
+	if (place_meeting(x, y + 1, o_collision)) {
 		state = fighter_state.normal;
+		air_ability_used = false;
+	}
 	if (fitr_kick) 
 		state = fighter_state.air_kicking;
-
+	if (fitr_up && !air_ability_used && (air_ability > 0))
+			state = fighter_state.air_ability;	
 	exit;
+}
+
+// air abilities are only dashing and double jumping so far (or forever)
+// NOTE: past functions to double-jump or dash are now obsolete in this new FSM
+if (state == fighter_state.air_ability) {
+	if (air_ability == 1) {
+		y_o = y;
+		state = fighter_state.jumping;
+		air_ability_used = true;
+	}
+	else if (air_ability == 2) {
+		apply_movement(facing * fitr_dash, 0);
+		vel[0] = 0;
+		var _dash = instance_create_layer(x + (-sign(facing) * (sprite_width / 2)), y, "Instances", o_dash_wind);
+		_dash.x += -sign(facing) * (_dash.sprite_width / 2);
+		_dash.image_xscale *= facing * (fitr_dash / _dash.sprite_width);
+		air_ability_used = true;
+		state = fighter_state.falling;
+	}
 }
