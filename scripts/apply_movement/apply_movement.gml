@@ -20,8 +20,6 @@ if (place_meeting(x, y + argument[1], o_collision)) {
 		y += sign(argument[1]);
 	}
 	argument[1] = 0;
-	// landing on floor; NOTE: no ceilings please
-	//self.y_o = y;
 }
 
 y += argument[1];
