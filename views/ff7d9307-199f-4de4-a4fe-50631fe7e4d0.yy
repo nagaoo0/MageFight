@@ -7,7 +7,8 @@
         "4076bf20-c051-49a4-8386-7ab9e1e6e0d2",
         "ea32a518-a2c3-48b8-91c5-4e842ef9085e",
         "38d98976-8db2-426d-8b34-4921ac7df3c1",
-        "55521ae6-3831-4985-8279-63d35b92a0a8"
+        "55521ae6-3831-4985-8279-63d35b92a0a8",
+        "c234ac39-4e13-49e6-a0e2-7ba4ec8e2c4e"
     ],
     "filterType": "GMSprite",
     "folderName": "Ninja",
