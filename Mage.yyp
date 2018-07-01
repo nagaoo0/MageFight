@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "390a3c70-1db5-433f-9ff3-e3bd218518ae",
+            "Value": {
+                "id": "2eb72ac1-f17d-4bf1-9e60-97a1da502885",
+                "resourcePath": "sprites\\sprSword_Attack_Down_A\\sprSword_Attack_Down_A.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "18365fc5-880c-4973-ae40-b90b7a1bdf95",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "678a3856-3ee0-4a8e-8832-4c3769077229",
+            "Value": {
+                "id": "982d58a1-017a-457b-b783-703ce7b2e624",
+                "resourcePath": "sprites\\s_fighter_punch_side_ninja\\s_fighter_punch_side_ninja.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a8b66c4-a9cc-4698-9914-c1e3cc6316a9",
             "Value": {
                 "id": "57ee1fd0-6625-458a-a2a1-cc5ef6d47276",
@@ -291,6 +307,14 @@
             "Value": {
                 "id": "c73de52f-1266-47ea-8545-6ea8f64f9511",
                 "resourcePath": "sprites\\s_fighter_icon_monk\\s_fighter_icon_monk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f87f261-0919-4ce2-9667-9bf33e94626a",
+            "Value": {
+                "id": "7ec4476b-65c6-4863-94f0-f6ac135cab43",
+                "resourcePath": "sprites\\s_dash_effect\\s_dash_effect.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -515,6 +539,14 @@
             "Value": {
                 "id": "40e0cf85-c16e-49c8-a7c8-d8e4f3d8a154",
                 "resourcePath": "views\\c01762fe-0ed7-4421-bd8f-8292c82d8129.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c234ac39-4e13-49e6-a0e2-7ba4ec8e2c4e",
+            "Value": {
+                "id": "315e59b4-6917-471d-b2cd-92935e74ddb8",
+                "resourcePath": "views\\c234ac39-4e13-49e6-a0e2-7ba4ec8e2c4e.yy",
                 "resourceType": "GMFolder"
             }
         },
