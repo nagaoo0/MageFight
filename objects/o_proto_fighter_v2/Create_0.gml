@@ -8,10 +8,10 @@ global.player1_id = self;
 // stats (so far)
 fitr_hp = 100;
 fitr_stammag = 50;
-fitr_jmp = 40;
+fitr_jmp = 30;
 fitr_wght = 50;
 fitr_accl = 2;
-fitr_jmp_accl = 16;
+fitr_jmp_accl = 26;
 fitr_dccl = 2;
 fitr_dash = 50;
 
@@ -60,5 +60,7 @@ fitr_right_held = false;
 fitr_left_held = false;
 
 // Drawing
-image=0;
-facing=image_xscale
+image = 0;
+facing = image_xscale;
+anim_cntr = 0;
+sprite_arm = s_sword_run_ninja;

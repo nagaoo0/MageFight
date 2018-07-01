@@ -8,13 +8,13 @@ var vert  = fitr_down_held - fitr_up_held;
 if (horiz != 0) {
 		vel[0] = clamp(vel[0] + (fitr_accl * horiz), -x_max_vel, x_max_vel);
 		// slowed down accel from jump/crouch
-		if (vert != 0)
+		if (vert > 0)
 			vel[0] /= 2;
 }
 // decceleration
 else {
 	vel[0] = clamp(vel[0] + (-sign(vel[0]) * fitr_dccl), -x_max_vel, x_max_vel);
-	// stops "jitters" from reduced speed in jump/crouch
+	// stops "jitters" that result from reduced speed in crouch
 	if (abs(vel[0]) <= 2)
 		vel[0] = 0;
 }
