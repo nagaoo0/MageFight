@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1bcf103d-dd06-44e3-8479-d0d7e603c06e",
+            "Value": {
+                "id": "f4cd54b0-5a3e-475b-83ca-985cacc377ae",
+                "resourcePath": "objects\\o_proto_fighter_v2\\o_proto_fighter_v2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cf4c2e2-5116-4af6-b3e3-2fe7255a2e0b",
             "Value": {
                 "id": "4ff9bcb0-ff73-4f1c-8525-01aa91c63717",
@@ -228,6 +236,14 @@
                 "id": "5e0f6e95-dc4a-487c-b75d-0fcb112513bd",
                 "resourcePath": "datafiles_yy\\sprPlayer_Run_Base.yy.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5173c473-b1ce-442f-8745-eef4fb65e022",
+            "Value": {
+                "id": "8ddd5ce6-a551-4ca8-8449-3d2caf0ab613",
+                "resourcePath": "views\\5173c473-b1ce-442f-8745-eef4fb65e022.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -399,14 +415,6 @@
             }
         },
         {
-            "Key": "a5b16fe9-1f88-467c-bdce-f85244b0910d",
-            "Value": {
-                "id": "dec29704-9aaf-4e49-8c57-9992b7ba9784",
-                "resourcePath": "sprites\\s_fighter_placeholder\\s_fighter_placeholder.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a5d5d6be-bd5a-49de-bd68-bf1618e464ae",
             "Value": {
                 "id": "38aa9e4a-cd12-402d-9c69-f824acaad5e8",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "c6d22da4-88b0-4149-ba01-e5c3509f0caa",
+            "Value": {
+                "id": "85a1145b-0ba7-490a-a891-90762e09d1fe",
+                "resourcePath": "sprites\\s_fighter_placeholder\\s_fighter_placeholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9bc2b86-2af6-41c3-84b6-b691ed6e8845",
             "Value": {
                 "id": "2258c751-9eb3-4651-b0fa-df8a9f26850e",
@@ -594,7 +610,7 @@
             "Key": "da4de00b-af1e-47a8-b2d1-a678bfcb46b9",
             "Value": {
                 "id": "30ca5586-c733-4bf4-bd8c-ed727fcb466d",
-                "resourcePath": "objects\\o_fighter\\o_fighter.yy",
+                "resourcePath": "objects\\o_proto_fighter\\o_proto_fighter.yy",
                 "resourceType": "GMObject"
             }
         },

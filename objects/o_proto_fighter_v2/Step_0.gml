@@ -1,4 +1,4 @@
-/// @description Movement, attacking, recieving attack
+/// @description Inputs and FSM
 
 // pausing
 if keyboard_check_pressed(vk_escape)
@@ -13,17 +13,13 @@ var vert  = fitr_down_held - fitr_up_held;
 
 // redoing state machine toincorporate jumping/falling smoothly
 if (state == fighter_state.normal) {
-	/*// getting directional inputs
-	var horiz = fitr_right_held - fitr_left_held;
-	var vert  = fitr_down_held - fitr_up_held;*/
-	
-	// acceleration
+	/*// regular acceleration
 	if (horiz != 0) 
 		vel[0] = clamp(vel[0] + (fitr_accl * horiz), -x_max_vel, x_max_vel);
 	// decceleration
 	else if (horiz == 0)
 		//vel[0] += vel[0] + (-sign(vel[0]) * fitr_dccl);
-		vel[0] = clamp(vel[0] + (-sign(vel[0]) * fitr_dccl), -x_max_vel, x_max_vel);
+		vel[0] = clamp(vel[0] + (-sign(vel[0]) * fitr_dccl), -x_max_vel, x_max_vel);*/
 	
 	// crouching
 	if (vert > 0)
@@ -31,11 +27,22 @@ if (state == fighter_state.normal) {
 	else
 		sprite_index = s_fighter_placeholder; // stand
 	
+	/*// experiment: slow down speed when jumping/crouching MOVED TO END STEP
+	if (vert != 0) {
+		//if (vel[0] & 1)
+		//	vel[0] += 1;
+		vel[0] /= 2;
+	}*/
 	// move state to jumping
 	if (vert < 0) {
 		state = fighter_state.jumping;
 		y_o = y;
 	}
+	
+	// check if not on platform anymore and fall
+	if !(place_meeting(x + (sprite_width / 2), y + 1, o_collision) ||
+		 place_meeting(x - (sprite_width / 2), y + 1, o_collision) )
+		state = fighter_state.falling;
 		
 	// testing exit keyword, should end this step event and continue rest of game loop
 	exit;
@@ -51,12 +58,11 @@ if (state == fighter_state.jumping) {
 		if (fitr_kick) 
 			state = fighter_state.air_kicking;
 	}
-	// if up let go or height limit reach, fall
+	// if up let go or height limit reached, fall
 	else
 		state = fighter_state.falling;
-	// if state changed then exit step event
-	if state != fighter_state.jumping
-		exit;
+		
+	exit;
 }
 
 if (state == fighter_state.falling) {
@@ -64,6 +70,8 @@ if (state == fighter_state.falling) {
 		state = fighter_state.normal;
 	if (fitr_kick) 
 		state = fighter_state.air_kicking;
+
+	exit;
 }
 
 
@@ -128,7 +136,7 @@ if (state == "normal") {
 
 	// check if falling
 	if (falling)*/
-		vel[1] = clamp(vel[1] + GRAV, -y_max_vel, y_max_vel);		
+		//vel[1] = clamp(vel[1] + GRAV, -y_max_vel, y_max_vel);		
 	
 	/*
 	// apply velocities in regards to collisions
@@ -150,8 +158,8 @@ if (state == "normal") {
 //}
 
 // apply velocities in regards to collisions
-apply_movement(vel[0], vel[1]);
-
+//apply_movement(vel[0], vel[1]);
+/*
 // once we know we are on floor, remove any possible verticle momentum and reset jump FSM
 if (place_meeting(x, y + 1, o_collision)) {
 	falling = false;
