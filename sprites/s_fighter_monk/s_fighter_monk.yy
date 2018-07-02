@@ -2,7 +2,7 @@
     "id": "84ee6d69-4c89-4459-b569-fee658247731",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_fighter_idle_monk",
+    "name": "s_fighter_monk",
     "For3D": false,
     "HTile": false,
     "VTile": false,

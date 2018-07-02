@@ -44,5 +44,10 @@ if (state == fighter_state.falling) {
 	image = 1;
 }
 
+if !draw{
+	sprite_index=blank;
+	sprite_arm=blank;
+}
+
 draw_sprite_ext(sprite_index, image, x, y, image_xscale * facing, image_yscale, 0, c_white,1);
 draw_sprite_ext(sprite_arm, image, x, y,image_xscale * facing, image_yscale, 0, c_white, 1);

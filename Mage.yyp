@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0bb2d26b-693c-4623-864f-15eed8d13a99",
+            "Value": {
+                "id": "a914e021-8d61-41cf-a084-5dfa641a6447",
+                "resourcePath": "sprites\\blank\\blank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11c2ad24-0af2-4354-96f3-8830776d42ec",
             "Value": {
                 "id": "5b8d52ac-d646-4be5-8e94-bc1723428f96",
@@ -458,7 +466,7 @@
             "Key": "84ee6d69-4c89-4459-b569-fee658247731",
             "Value": {
                 "id": "03ea58bc-40e7-48b3-903e-67c5a6e12d31",
-                "resourcePath": "sprites\\s_fighter_idle_monk\\s_fighter_idle_monk.yy",
+                "resourcePath": "sprites\\s_fighter_monk\\s_fighter_monk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -492,6 +500,14 @@
                 "id": "a5099fb0-0016-4b02-a06d-0283176991ff",
                 "resourcePath": "sprites\\s_staff_run_monk\\s_staff_run_monk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98b57b9d-75fa-4a10-9c41-5bb7305537fd",
+            "Value": {
+                "id": "d22fd0f5-7577-4994-a0b8-5c0be7aa57d6",
+                "resourcePath": "objects\\o_dash_ninja\\o_dash_ninja.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -13,7 +13,7 @@ fitr_wght = 50;
 fitr_accl = 2;
 fitr_jmp_accl = 60;
 fitr_dccl = 2;
-fitr_dash = 50;
+fitr_dash = 100;
 
 // movement
 vel = [0, 0];
@@ -69,3 +69,4 @@ image = 0;
 facing = image_xscale;
 anim_cntr = 0;
 sprite_arm = s_sword_run_ninja;
+draw=true;

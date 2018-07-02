@@ -69,6 +69,7 @@ if (state == fighter_state.falling) {
 // air abilities are only dashing and double jumping so far (or forever)
 // NOTE: past functions to double-jump or dash are now obsolete in this new FSM
 if (state == fighter_state.air_ability) {
+	draw=false;
 	// 1: double jump
 	if (air_ability == 1) {
 		// basically reset jump
@@ -86,7 +87,10 @@ if (state == fighter_state.air_ability) {
 		// create an object for the dash visual effect itself; shouldn't cause performance probs
 		var _dash = instance_create_layer(x + (-sign(facing) * (sprite_width / 2)), y, "Instances", o_dash_wind);
 		_dash.x += -sign(facing) * (_dash.sprite_width / 2);
-		_dash.image_xscale *= facing * (fitr_dash / _dash.sprite_width);
+		_dash.image_xscale *= facing// * (fitr_dash / _dash.sprite_width);
+		var _dashNinja = instance_create_layer(x + (-sign(facing) * (sprite_width / 2)), y, "Instances", o_dash_ninja);
+		_dashNinja.x += -sign(facing) * (_dash.sprite_width / 2);
+		_dashNinja.image_xscale *= facing// * (fitr_dash / _dash.sprite_width);
 		// air ability only used once per being in mid-air
 		air_ability_used = true;
 		state = fighter_state.falling;
@@ -115,7 +119,7 @@ if (state == fighter_state.air_up_punch) {
 }
 
 // air kick
-// Q: are we still doing this?
+// Q: are we still doing this? A: Yep maybe we can just create a hitbox that follows the foot and distroy it if the ennemy is blocking or swings
 
 if (state == fighter_state.air_kicking) {
 	/*// create hitbox if not made yet
