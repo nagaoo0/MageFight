@@ -1,0 +1,5 @@
+- Finish all characters
+- Make a data structure holding all  the sprites
+	- Script that finds all the sprites for a character in create event
+- Main menu, int global input values to be used/changed later
+- AI // Need the combo system to be done

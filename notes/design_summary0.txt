@@ -22,7 +22,9 @@ Rough Design for fighting game design - rogue
 
 Questions:
 Q: Should stam/mag replenish over time or through fighting? or both? - rogue
+	Both I guess
 
 Q: Get rid of ult idea? I say at least hold off until we know what kind of fighting game - rogue
 
 Q: Need more or less combo and fighter types? - rogue
+	At least Two or Tree per character

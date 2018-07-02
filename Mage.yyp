@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "f6ba4149-f706-424f-a57d-562417fdd5a2",
+            "Value": {
+                "id": "b35db9eb-3902-4e61-bf6d-6d76fe0ff348",
+                "resourcePath": "notes\\cyanide.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "f7de0c4e-b32f-499b-a069-8501295700cd",
             "Value": {
                 "id": "ba4ad683-af46-4507-a123-f6e30b3f245c",
