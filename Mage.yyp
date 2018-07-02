@@ -190,7 +190,7 @@
                 "resourceType": "GMSprite"
             }
         },
-	{
+        {
             "Key": "28cf66ba-db95-4b0e-b495-94890edb142f",
             "Value": {
                 "id": "4bde08de-a015-464a-bcea-838569049db0",
@@ -404,6 +404,14 @@
                 "id": "1165dd5f-39d1-4fb5-8d4e-73c3a7e09a10",
                 "resourcePath": "sprites\\s_sword_jump_ninja\\s_sword_jump_ninja.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d02af2a-fe86-4c9e-a85b-dc0dce6bf21d",
+            "Value": {
+                "id": "05baac8c-0c43-4321-b266-4b5f6bf7415f",
+                "resourcePath": "objects\\o_fighter_punch_hitbox\\o_fighter_punch_hitbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {

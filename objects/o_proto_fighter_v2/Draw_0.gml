@@ -27,15 +27,20 @@ if (state == fighter_state.normal) {
 	}	
 }
 
+// jumping
+// NOTE: both falling and jumping saved in same sprite in different frames
 if (state == fighter_state.jumping) {
 	sprite_index = s_fighter_jump_ninja;
-	sprite_arm = s_sword_jump_ninja
+	sprite_arm = s_sword_jump_ninja;
+	// frame 0 contains jumping
 	image = 0;
 }
 
+// falling
 if (state == fighter_state.falling) {
 	sprite_index = s_fighter_jump_ninja;
-	sprite_arm = s_sword_jump_ninja
+	sprite_arm = s_sword_jump_ninja;
+	// frame 1 contains falling
 	image = 1;
 }
 

@@ -30,6 +30,7 @@ enum fighter_state {
 	air_kicking,
 	air_ability,
 	blocking,
+	air_up_punch
 };
 
 // set state to normal
@@ -58,6 +59,10 @@ fitr_down_held = false;
 fitr_up_held = false;
 fitr_right_held = false;
 fitr_left_held = false;
+
+// fighting hitbox instance IDs; -1 when empty
+punch_hitbox = -1;
+kick_hitbox = -1;
 
 // Drawing
 image = 0;
